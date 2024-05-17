@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/text_view_item"
+        android:layout_width="0dp"
+        android:textSize="22sp"
+        android:textColor="@color/yellow"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Item Name" />
+
+    <CheckBox
+
+        android:background="@color/yellow"
+        android:id="@+id/checkbox_item_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

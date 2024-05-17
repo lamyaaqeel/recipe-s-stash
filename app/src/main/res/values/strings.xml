@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Recipes Stash</string>
+    <string name="meals">Meals</string>
+    <string name="snaks">Snaks</string>
+    <string name="dessetrs">Dessetrs</string>
+    <string name="snacks" />
+    <string name="dessertes" />
+    <string name="desserts" />
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+
+        android:text="Add Recipe"
+        android:textColor="@color/yellow"
+        android:textSize="28sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="17dp"
+        android:hint="title"
+        android:textColor="@color/yellow"
+        android:textColorHint="@color/yellow">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/describe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="17dp"
+        android:hint="recipe details"
+        android:textColor="@color/yellow"
+        android:textColorHint="@color/yellow">
+
+    </EditText>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_margin="16dp"
+        android:id="@+id/save"
+        android:textColor="@color/black"
+        android:text="Save"
+        app:backgroundTint="@color/yellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.button.MaterialButton>
+
+</LinearLayout>
